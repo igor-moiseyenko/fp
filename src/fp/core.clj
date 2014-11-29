@@ -1,7 +1,8 @@
 (ns fp.core
-  (:gen-class))
+  (:require [fp.lab1.core :as lab1]))
 
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  (println "Hello, World!")
+  (lab1/run-lab1 ))
