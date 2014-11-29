@@ -12,42 +12,42 @@
 "Lab 1 interface."
 (declare run-cluster-estimation)
 
-"Get data point with its id and attributes as a vector from the specified lines of data.
+"Get data points with its id and attributes as a map from the specified lines of data.
  String values will be cast to its number equivalents."
 (defn- getDataPoints
   [dataLines]
-  (map (fn [dataLine]
-         (let [dataPointVector (str/split dataLine #",")
-               dataPointId (read-string (get dataPointVector 0))
-               dataPointAttributes (vec (map read-string (subvec dataPointVector 1)))]
-           [dataPointId dataPointAttributes]))
-       dataLines))
+  (reduce (fn [dataPoints dataLine]
+            (let [dataPointVector (str/split dataLine #",")
+                  dataPointId (read-string (get dataPointVector 0))
+                  dataPointAttributes (vec (map read-string (subvec dataPointVector 1)))]
+              (assoc dataPoints dataPointId dataPointAttributes)))
+          {}
+          dataLines))
 
-"Returns square of the distance for specified data points."
+"Returns square of the distance for specified data points attributes."
 (defn- square-of-the-distance
-  [dataPoint1 dataPoint2]
-  (let [attrs1 (get dataPoint1 1)
-        attrs2 (get dataPoint2 1)]
-    (apply + (map (fn [attr1 attr2]
-                    (Math/abs (- attr2 attr1)))
-                  attrs1
-                  attrs2))))
+  [attrs1 attrs2]
+  (apply + (map (fn [attr1 attr2]
+                  (Math/abs (- attr2 attr1)))
+                attrs1
+                attrs2)))
 
 "Returns potential of the specified data point."
 (defn- data-point-potential
-  [dataPoint dataPoints]
-  (apply + (map (fn [dp]
-                  (if (not= (get dataPoint 0) (get dp 0))
-                    (Math/pow Math/E (- (* alpha (square-of-the-distance dataPoint dp))))
-                    0))
-                dataPoints)))
+  [dataPointId dataPoints]
+  (let [dataPoint (get dataPoints dataPointId)
+        restDataPoints (dissoc dataPoints dataPointId dataPoints)]
+    (apply + (map (fn [restDataPointId]
+                    (Math/pow Math/E (- (* alpha (square-of-the-distance dataPoint (get restDataPoints restDataPointId))))))
+                  (keys restDataPoints)))))
 
-"Returns potentials as a vector of data point id & its potential elements for each of the specified data points."
+"Returns potentials as a map of data point id & its potential for each of the specified data points."
 (defn- data-points-potentials
   [dataPoints]
-  (map (fn [dataPoint]
-         [(get dataPoint 0) (data-point-potential dataPoint dataPoints)])
-       dataPoints))
+  (reduce (fn [dataPointsPotentials dataPointId]
+            (assoc dataPointsPotentials dataPointId (data-point-potential dataPointId dataPoints)))
+          {}
+          (keys dataPoints)))
 
 (defn run-cluster-estimation
   []
