@@ -9,7 +9,6 @@
 (def rB (* 1.5 rA))
 (def alpha (/ 4 (* rA rA)))
 (def beta (/ 4 (* rB rB)))
-(def eps 0.55)
 (def greatEps 0.5)
 (def smallEps 0.15)
 
@@ -77,29 +76,52 @@
 
 "Revise potentials after one more cluster selected."
 (defn- revise-potentials
-  [clusterIds lastClusterPotentialId dataPointsPotentials distanceSquares]
+  [lastClusterCenterId lastClusterCenterPotential restDataPointsPotentials distanceSquares]
   (reduce (fn [revisedPotentials restPotentialId]
             (assoc revisedPotentials
                    restPotentialId
-                   (- (get dataPointsPotentials restPotentialId)
-                      (* (get dataPointsPotentials lastClusterPotentialId)
-                         (Math/pow Math/E (- (* beta (get-in distanceSquares [lastClusterPotentialId restPotentialId]))))))))
+                   (- (get restDataPointsPotentials restPotentialId)
+                      (* lastClusterCenterPotential
+                         (Math/pow Math/E (- (* beta (get-in distanceSquares [lastClusterCenterId restPotentialId]))))))))
           {}
-          (keys (apply dissoc dataPointsPotentials clusterIds))))
+          (keys restDataPointsPotentials)))
 
-(defn- get-clusters
-  [dataPoints dataPointsPotentials distanceSquares]
-  (loop [lastClusterId (get-data-point-id-with-max-potential dataPointsPotentials)
-         clusters { lastClusterId (get dataPointsPotentials lastClusterId) }
-         revisedPotentials (revise-potentials (keys clusters) lastClusterId dataPointsPotentials distanceSquares)]
-    (let [nextClusterId (get-data-point-id-with-max-potential revisedPotentials)]
-      (prn nextClusterId)
-      (prn (get revisedPotentials nextClusterId))
-      (if (< (get revisedPotentials nextClusterId) (* eps (get dataPointsPotentials lastClusterId)))
-        clusters
-        (let [newClusters (assoc clusters nextClusterId (get revisedPotentials nextClusterId))
-              newRevisedPotentials (revise-potentials (keys newClusters) nextClusterId dataPointsPotentials distanceSquares)]
-          (recur nextClusterId newClusters newRevisedPotentials))))))
+"Returns shortest of the distances between potential cluster and all previously found cluster centers."
+(defn- shortest-distance-to-cluster-center
+  [nextClusterCenterId clusterCenters distanceSquares]
+  (apply min (map (fn [clusterCenterId]
+                    (get-in distanceSquares [nextClusterCenterId clusterCenterId]))
+                  (keys clusterCenters))))
+
+"Get cluster centers for specified data points based on specified constant values (rA, rB, greatEps, smallEps)."
+(defn- get-cluster-centers
+  [dataPointsPotentials distanceSquares]
+  (loop [lastClusterCenterId (get-data-point-id-with-max-potential dataPointsPotentials)
+         clusterCenters { lastClusterCenterId (get dataPointsPotentials lastClusterCenterId) }
+         revisedPotentials (revise-potentials lastClusterCenterId
+                                              (get dataPointsPotentials lastClusterCenterId)
+                                              (dissoc dataPointsPotentials lastClusterCenterId)
+                                              distanceSquares)]
+    (let [nextClusterCenterId (get-data-point-id-with-max-potential revisedPotentials)
+          nextClusterCenterPotential (get revisedPotentials nextClusterCenterId)
+          lastClusterCenterPotential (get dataPointsPotentials lastClusterCenterId)]
+      (if (< nextClusterCenterPotential (* smallEps lastClusterCenterPotential))
+        clusterCenters
+        (let [dMin (shortest-distance-to-cluster-center nextClusterCenterId clusterCenters distanceSquares)
+              isNextClusterCenter (or (> nextClusterCenterPotential (* greatEps lastClusterCenterPotential))
+                                      (>= (+ (/ dMin rA) (/ nextClusterCenterPotential lastClusterCenterPotential)) 1))
+              clusterCenters (if isNextClusterCenter
+                               (assoc clusterCenters nextClusterCenterId (get revisedPotentials nextClusterCenterId))
+                               clusterCenters)
+              revisedPotentials (if isNextClusterCenter
+                                  revisedPotentials
+                                  (assoc revisedPotentials nextClusterCenterId 0))
+              lastClusterCenterId (if isNextClusterCenter nextClusterCenterId lastClusterCenterId)
+              revisedPotentials (revise-potentials lastClusterCenterId
+                                                   (get dataPointsPotentials lastClusterCenterId)
+                                                   (dissoc revisedPotentials lastClusterCenterId)
+                                                   distanceSquares)]
+          (recur lastClusterCenterId clusterCenters revisedPotentials))))))
 
 (defn run-cluster-estimation
   []
@@ -107,7 +129,6 @@
         dataPoints (getDataPoints dataLines)
         distanceSquares (squares-of-the-distances dataPoints)
         dataPointsPotentials (data-points-potentials dataPoints distanceSquares)
-        clusters (get-clusters dataPoints dataPointsPotentials distanceSquares)]
-    (prn dataPoints)
-    (prn dataPointsPotentials)
-    (prn clusters)))
+        clusterCenters (get-cluster-centers dataPointsPotentials distanceSquares)]
+    (println "FP. Lab 1 - Cluster estimation.")
+    (println "Cluster centers: " (keys clusterCenters))))
