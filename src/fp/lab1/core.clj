@@ -32,20 +32,37 @@
                 attrs1
                 attrs2)))
 
+"Return squares of the distances for each of the specified data points as a map of maps.
+ Allows not to recalculate square of the distance many times."
+(defn- squares-of-the-distances
+  [dataPoints]
+  (reduce (fn [distanceSquares dataPointKey]
+            (assoc distanceSquares dataPointKey (reduce (fn [dataPoint1DistanceSquares restDataPointKey]
+                                                          (let [squareOfTheDistance (get-in distanceSquares [restDataPointKey dataPointKey])]
+                                                            (assoc dataPoint1DistanceSquares
+                                                                   restDataPointKey
+                                                                   (if (not= squareOfTheDistance nil)
+                                                                     squareOfTheDistance
+                                                                     (square-of-the-distance (get dataPoints dataPointKey)
+                                                                                             (get dataPoints restDataPointKey))))))
+                                                        {}
+                                                        (keys (dissoc dataPoints dataPointKey)))))
+          {}
+          (keys dataPoints)))
+
 "Returns potential of the specified data point."
 (defn- data-point-potential
-  [dataPointId dataPoints]
-  (let [dataPoint (get dataPoints dataPointId)
-        restDataPoints (dissoc dataPoints dataPointId dataPoints)]
+  [dataPointId dataPoints distanceSquares]
+  (let [restDataPoints (dissoc dataPoints dataPointId dataPoints)]
     (apply + (map (fn [restDataPointId]
-                    (Math/pow Math/E (- (* alpha (square-of-the-distance dataPoint (get restDataPoints restDataPointId))))))
+                    (Math/pow Math/E (- (* alpha (get-in distanceSquares [dataPointId restDataPointId])))))
                   (keys restDataPoints)))))
 
 "Returns potentials as a map of data point id & its potential for each of the specified data points."
 (defn- data-points-potentials
-  [dataPoints]
+  [dataPoints distanceSquares]
   (reduce (fn [dataPointsPotentials dataPointId]
-            (assoc dataPointsPotentials dataPointId (data-point-potential dataPointId dataPoints)))
+            (assoc dataPointsPotentials dataPointId (data-point-potential dataPointId dataPoints distanceSquares)))
           {}
           (keys dataPoints)))
 
@@ -53,6 +70,8 @@
   []
   (let [dataLines (util/read-file dataFilePath)
         dataPoints (getDataPoints dataLines)
-        dataPointsPotentials (data-points-potentials dataPoints)]
+        distanceSquares (squares-of-the-distances dataPoints)
+        dataPointsPotentials (data-points-potentials dataPoints distanceSquares)]
     (prn dataPoints)
+    (prn distanceSquares)
     (prn dataPointsPotentials)))
