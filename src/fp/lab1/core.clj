@@ -1,5 +1,4 @@
 (ns fp.lab1.core
-  (:require [clojure.java.io :as io])
   (:require [clojure.string :as str])
   (:require [fp.util :as util]))
 
@@ -56,7 +55,7 @@
 "Returns potential of the specified data point."
 (defn- data-point-potential
   [dataPointId dataPoints distanceSquares]
-  (let [restDataPoints (dissoc dataPoints dataPointId dataPoints)]
+  (let [restDataPoints (dissoc dataPoints dataPointId)]
     (apply + (map (fn [restDataPointId]
                     (Math/pow Math/E (- (* alpha (get-in distanceSquares [dataPointId restDataPointId])))))
                   (keys restDataPoints)))))
