@@ -1,6 +1,7 @@
 # fp
 
-FIXME: description
+Functional programming labs.
+Just type in console: lein run.
 
 ## Installation
 
