@@ -2,27 +2,27 @@
   (:require [clojure.test :refer :all]
             [fp.util :as util]
             [fp.lab2.core :as lab2Core]
-            [fp.lab2.links :as links]))
+            [fp.lab2.urls :as urls]))
 
 (def testHtmlPath "./resources/lab2/lab2test.html")
-(def numOfLinks 3)
-(def link1 "http://www.hello1.com")
-(def link2 "http://www.hello2.com")
-(def link3 "www.hello3.com")
+(def numOfUrls 3)
+(def url1 "http://www.hello1.com")
+(def url2 "http://www.hello2.com")
+(def url3 "www.hello3.com")
 
-(deftest parse-links-test
-  (testing "Parse links test"
-      (let [links (links/parse-links (slurp testHtmlPath))]
-        (is (and (not= links nil)
-                 (= (count links) numOfLinks)))
-        (is (= (nth links 0) link1))
-        (is (= (nth links 1) link2))
-        (is (= (nth links 2) link3)))))
+(deftest parse-urls-test
+  (testing "Parse urls test"
+      (let [urls (urls/parse-urls (slurp testHtmlPath))]
+        (is (and (not= urls nil)
+                 (= (count urls) numOfUrls)))
+        (is (= (nth urls 0) url1))
+        (is (= (nth urls 1) url2))
+        (is (= (nth urls 2) url3)))))
 
-(deftest parse-external-links-test
-  (testing "Parse external links test"
-    (let [externalLinks (links/filter-external-links (links/parse-links (slurp testHtmlPath)))]
-      (is (and (not= externalLinks nil)
-               (= (count externalLinks) 2)))
-      (is (= (nth externalLinks 0) link1))
-      (is (= (nth externalLinks 1) link2)))))
+(deftest parse-external-urls-test
+  (testing "Parse external urls test"
+    (let [externalUrls (urls/parse-external-urls (slurp testHtmlPath))]
+      (is (and (not= externalUrls nil)
+               (= (count externalUrls) 2)))
+      (is (= (nth externalUrls 0) url1))
+      (is (= (nth externalUrls 1) url2)))))
