@@ -19,10 +19,10 @@
 "Path to the output."
 (def outputPath "./resources/lab2/output")
 
-"Handle external url.
- Depth-first algorithm for traversing URL's graph.
- Recall function to handle urls with decrementet depth."
 (defn handle-url
+  "Handle external url.
+  Depth-first algorithm for traversing URL's graph.
+  Recall function to handle urls with decrementet depth."
   [externalUrl depth]
   (let [response (client/get externalUrl { :throw-exceptions false })
         statusCode (:status response)]
@@ -36,19 +36,19 @@
       (contains? redirects statusCode) (let [traceRedirects (:trace-redirects response)]
                                          (str "Redirect to " (peek traceRedirects))))))
 
-"Handle external urls with specified depth."
 (defn handle-urls
+  "Handle external urls with specified depth."
   [externalUrls depth]
   (pmap (fn [externalUrl]
           { externalUrl (handle-url externalUrl depth) })
         externalUrls))
 
-"Run urls analyzer."
 (defn run-url-analyzer
+  "Run urls analyzer."
   []
   (let [urls (util/read-file linksPath)
         urlsInfo (handle-urls urls depth)]
-    (prn 'Result)
     (prn urls)
+    (prn 'Processing...)
     (prn urlsInfo)
     (util/write-dataset-to-file outputPath urlsInfo)))
