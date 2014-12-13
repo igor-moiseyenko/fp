@@ -1,0 +1,578 @@
+({"http://www.google.com"
+  {:numOfLinks 7,
+   :links
+   ({"http://www.google.by/imghp?hl=be&tab=wi"
+     {:numOfLinks 5,
+      :links
+      ({"https://www.google.by/webhp?hl=be&tab=iw"
+        {:numOfLinks 7, :links []}}
+       {"http://translate.google.by/?hl=be&tab=iT"
+        {:numOfLinks 13, :links []}}
+       {"http://www.blogger.com/?tab=ij" {:numOfLinks 7, :links []}}
+       {"http://www.google.by/history/optout?hl=be"
+        {:numOfLinks 7, :links []}}
+       {"https://accounts.google.com/ServiceLogin?hl=be&continue=http://www.google.by/imghp%3Fhl%3Dbe%26tab%3Dwi"
+        {:numOfLinks 7, :links []}})}}
+    {"http://translate.google.by/?hl=be&tab=wT"
+     {:numOfLinks 13,
+      :links
+      ({"https://www.google.by/webhp?hl=be&tab=Tw"
+        {:numOfLinks 7, :links []}}
+       {"http://www.google.by/imghp?hl=be&tab=Ti"
+        {:numOfLinks 5, :links []}}
+       {"https://www.blogger.com/?tab=Tj" {:numOfLinks 7, :links []}}
+       {"http://www.google.com/support/translate/#googtrans/en/be"
+        {:numOfLinks 10, :links []}}
+       {"https://accounts.google.com/ServiceLogin?hl=be&continue=https://translate.google.by/%3Fhl%3Dbe"
+        {:numOfLinks 7, :links []}}
+       {"http://www.google.by/url?source=transpromo&rs=rsmf&q=http://translate.google.com/toolkit%3Fhl%3Dbe"
+        {:numOfLinks 7, :links []}}
+       {"http://www.google.by/url?source=transpromo&rs=rsmf&q=http://translate.google.com/manager/website/%3Fhl%3Dbe"
+        {:numOfLinks 7, :links []}}
+       {"http://www.google.by/url?source=transpromo&rs=rsmf&q=http://translate.google.com/globalmarketfinder/%3Flocale%3Dbe"
+        {:numOfLinks 0, :links []}}
+       {"http://www.google.by/url?source=transpromo&rs=rssf&q=http://translate.google.by/about/intl/be_ALL/"
+        {:numOfLinks 0, :links []}}
+       {"http://www.google.by/url?source=transpromo&rs=rssf&q=http://www.google.com/mobile/translate/"
+        {:numOfLinks 15, :links []}}
+       {"http://www.google.by/url?source=transpromo&rs=rssf&q=//translate.google.com/community"
+        {:numOfLinks 12, :links []}}
+       {"http://www.google.by/url?source=transpromo&rs=rssf&q=http://www.google.by/intl/be/privacy.html"
+        {:numOfLinks 0, :links []}}
+       {"http://www.google.by/url?source=transpromo&rs=rssf&q=http://www.google.com/support/translate/%23googtrans/en/be"
+        {:numOfLinks 10, :links []}})}}
+    {"http://www.blogger.com/?tab=wj"
+     {:numOfLinks 7,
+      :links
+      ({"https://support.google.com/accounts/?p=securesignin&hl=en"
+        {:numOfLinks 10, :links []}}
+       {"https://www.blogger.com/forgot.g" {:numOfLinks 7, :links []}}
+       {"https://accounts.google.com/SignUp?service=blogger&amp;continue=https%3A%2F%2Fwww.blogger.com%2Fhome&amp;ltmpl=start"
+        {:numOfLinks 13, :links []}}
+       {"https://www.google.com/intl/en/about"
+        {:numOfLinks 1, :links []}}
+       {"https://accounts.google.com/TOS?loc=BY&hl=en&privacy=true"
+        {:numOfLinks 14, :links []}}
+       {"https://accounts.google.com/TOS?loc=BY&hl=en"
+        {:numOfLinks 0, :links []}}
+       {"http://www.google.com/support/accounts?hl=en"
+        {:numOfLinks 10, :links []}})}}
+    {"http://www.google.by/history/optout?hl=be"
+     {:numOfLinks 7,
+      :links
+      ({"http://www.google.by/imghp?hl=be&tab=wi"
+        {:numOfLinks 5, :links []}}
+       {"http://translate.google.by/?hl=be&tab=wT"
+        {:numOfLinks 13, :links []}}
+       {"http://www.blogger.com/?tab=wj" {:numOfLinks 7, :links []}}
+       {"http://www.google.by/history/optout?hl=be"
+        {:numOfLinks 7, :links []}}
+       {"https://accounts.google.com/ServiceLogin?hl=be&continue=http://www.google.by/%3Fgws_rd%3Dcr%26ei%3DubKMVNe3Do7aPb6GgYAG"
+        {:numOfLinks 7, :links []}}
+       {"http://www.google.by/setprefs?sig=0_8WqbkSNQM2rsXzQDdONDvMiSuRE%3D&amp;hl=ru&amp;source=homepage"
+        {:numOfLinks 6, :links []}}
+       {"http://www.google.by/setprefdomain?prefdom=US&amp;sig=0_LKwjpQYb2IJXQ7E4B8xEPIz0-ek%3D"
+        {:numOfLinks 7, :links []}})}}
+    {"https://accounts.google.com/ServiceLogin?hl=be&continue=http://www.google.by/%3Fgws_rd%3Dcr%26ei%3Dt7KMVM6nOciIPO6OgegD"
+     {:numOfLinks 7,
+      :links
+      ({"https://support.google.com/accounts/?p=securesignin&hl=be"
+        {:numOfLinks 10, :links []}}
+       {"https://accounts.google.com/RecoverAccount?continue=http%3A%2F%2Fwww.google.by%2F%3Fgws_rd%3Dcr%26ei%3Dt7KMVM6nOciIPO6OgegD"
+        {:numOfLinks 4, :links []}}
+       {"https://accounts.google.com/SignUp?continue=http%3A%2F%2Fwww.google.by%2F%3Fgws_rd%3Dcr%26ei%3Dt7KMVM6nOciIPO6OgegD&amp;hl=be"
+        {:numOfLinks 13, :links []}}
+       {"https://www.google.com/intl/be/about"
+        {:numOfLinks 1, :links []}}
+       {"https://accounts.google.com/TOS?loc=BY&hl=be&privacy=true"
+        {:numOfLinks 14, :links []}}
+       {"https://accounts.google.com/TOS?loc=BY&hl=be"
+        {:numOfLinks 0, :links []}}
+       {"http://www.google.com/support/accounts?hl=be"
+        {:numOfLinks 6, :links []}})}}
+    {"http://www.google.by/setprefs?sig=0_jG_s_O4BdpMJnOyk3En64fQ4ZZk%3D&amp;hl=ru&amp;source=homepage"
+     {:numOfLinks 6,
+      :links
+      ({"http://www.google.by/imghp?hl=be&tab=wi"
+        {:numOfLinks 5, :links []}}
+       {"http://translate.google.by/?hl=be&tab=wT"
+        {:numOfLinks 13, :links []}}
+       {"http://www.blogger.com/?tab=wj" {:numOfLinks 7, :links []}}
+       {"http://www.google.by/history/optout?hl=be"
+        {:numOfLinks 7, :links []}}
+       {"https://accounts.google.com/ServiceLogin?hl=be&continue=http://www.google.by/preferences%3Fhl%3Dbe"
+        {:numOfLinks 7, :links []}}
+       {"https://accounts.google.com/ManageAccount"
+        {:numOfLinks 7, :links []}})}}
+    {"http://www.google.by/setprefdomain?prefdom=US&amp;sig=0_UWWjcRpq7XKHrwW2CSwjmjsl4rg%3D"
+     {:numOfLinks 7,
+      :links
+      ({"http://www.google.by/imghp?hl=be&tab=wi"
+        {:numOfLinks 5, :links []}}
+       {"http://translate.google.by/?hl=be&tab=wT"
+        {:numOfLinks 13, :links []}}
+       {"http://www.blogger.com/?tab=wj" {:numOfLinks 7, :links []}}
+       {"http://www.google.by/history/optout?hl=be"
+        {:numOfLinks 7, :links []}}
+       {"https://accounts.google.com/ServiceLogin?hl=be&continue=http://www.google.by/"
+        {:numOfLinks 7, :links []}}
+       {"http://www.google.by/setprefs?sig=0_5wkOFECr4NqWC9jlJ_7FTr4mDxg%3D&amp;hl=ru&amp;source=homepage"
+        {:numOfLinks 6, :links []}}
+       {"http://www.google.by/setprefdomain?prefdom=US&amp;sig=0_ZGVVdlsRA-bbndZWFL8clkGWp1k%3D"
+        {:numOfLinks 7, :links []}})}})}}
+ {"http://www.yandex.com"
+  {:numOfLinks 8,
+   :links
+   ({"https://mail.yandex.com"
+     {:numOfLinks 10,
+      :links
+      ({"http://www.yandex.com" {:numOfLinks 8, :links []}}
+       {"https://passport.yandex.com/passport?mode=restore"
+        {:numOfLinks 7, :links []}}
+       {"http://drweb.com/" {:numOfLinks 285, :links []}}
+       {"http://mobile.yandex.ru/apps/mail/"
+        {:numOfLinks 26, :links []}}
+       {"https://passport.yandex.com/registration/mail?from=mail&amp;require_hint=1&amp;origin=hostroot_com_nol&amp;retpath=https%3A%2F%2Fpassport.yandex.com%2Fpassport%3Fmode%3Dsubscribe%26from%3Dmail%26retpath%3Dhttps%253A%252F%252Fmail.yandex.com"
+        {:numOfLinks 2, :links []}}
+       {"http://mail.yandex.ru/promo/themes/"
+        {:numOfLinks 3, :links []}}
+       {"http://yandex.com" {:numOfLinks 8, :links []}}
+       {"http://feedback.yandex.com/?from=mail"
+        {:numOfLinks 7, :links []}}
+       {"http://help.yandex.com/mail/" {:numOfLinks 12, :links []}}
+       {"https://passport.yandex.com/registration/mail?from=mail&amp;require_hint=1&amp;origin=hostroot_com_nol&amp;retpath=https%3A%2F%2Fpassport.yandex.com%2Fpassport%3Fmode%3Dsubscribe%26from%3Dmail%26retpath%3Dhttps%253A%252F%252Fmail.yandex.com"
+        {:numOfLinks 2, :links []}})}}
+    {"https://mail.yandex.com/"
+     {:numOfLinks 10,
+      :links
+      ({"http://www.yandex.com" {:numOfLinks 8, :links []}}
+       {"https://passport.yandex.com/passport?mode=restore"
+        {:numOfLinks 7, :links []}}
+       {"http://drweb.com/" {:numOfLinks 285, :links []}}
+       {"http://mobile.yandex.ru/apps/mail/"
+        {:numOfLinks 26, :links []}}
+       {"https://passport.yandex.com/registration/mail?from=mail&amp;require_hint=1&amp;origin=hostroot_com_nol&amp;retpath=https%3A%2F%2Fpassport.yandex.com%2Fpassport%3Fmode%3Dsubscribe%26from%3Dmail%26retpath%3Dhttps%253A%252F%252Fmail.yandex.com"
+        {:numOfLinks 2, :links []}}
+       {"http://mail.yandex.ru/promo/themes/"
+        {:numOfLinks 3, :links []}}
+       {"http://yandex.com" {:numOfLinks 8, :links []}}
+       {"http://feedback.yandex.com/?from=mail"
+        {:numOfLinks 7, :links []}}
+       {"http://help.yandex.com/mail/" {:numOfLinks 12, :links []}}
+       {"https://passport.yandex.com/registration/mail?from=mail&amp;require_hint=1&amp;origin=hostroot_com_nol&amp;retpath=https%3A%2F%2Fpassport.yandex.com%2Fpassport%3Fmode%3Dsubscribe%26from%3Dmail%26retpath%3Dhttps%253A%252F%252Fmail.yandex.com"
+        {:numOfLinks 2, :links []}})}}
+    {"http://www.yandex.ru"
+     {:numOfLinks 55,
+      :links
+      ({"http://home.yandex.ru/?from=prov_main"
+        {:numOfLinks 5, :links []}}
+       {"http://home.yandex.ru/?from=prov_main"
+        {:numOfLinks 5, :links []}}
+       {"https://disk.yandex.ru/?auth&source=main-nonlogin"
+        {:numOfLinks 24, :links []}}
+       {"http://www.yandex.by/?lang=by&sk=y837fd6c7bba04d6aac2df1dd31a1cce6"
+        {:numOfLinks 55, :links []}}
+       {"http://www.yandex.by/themes" {:numOfLinks 138, :links []}}
+       {"http://www.yandex.by/?edit=1" {:numOfLinks 43, :links []}}
+       {"http://widgets.yandex.by" {:numOfLinks 36, :links []}}
+       {"https://mail.yandex.by" {:numOfLinks 0, :links []}}
+       {"https://mail.yandex.by" {:numOfLinks 0, :links []}}
+       {"http://news.yandex.by/?lang=ru" {:numOfLinks 34, :links []}}
+       {"http://news.yandex.by/world.html" {:numOfLinks 34, :links []}}
+       {"http://time.yandex.by" {:numOfLinks 31, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=rusnovosti.ru%2Fnews%2F357195%2F&lang=ru&lr=157"
+        {:numOfLinks 85, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.belta.by%2Fru%2Fall_news%2Fincident%3Fid%3D689168&lang=ru&lr=157"
+        {:numOfLinks 58, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.belta.by%2Fru%2Fall_news%2Fsociety%3Fid%3D689167&lang=ru&lr=157"
+        {:numOfLinks 58, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=belnovosti.by%2Fsociety%2F33873-andrej-ravkov-pozdravil-novobrancev-s-prinjatiem-voennoj-prisjagi.html&lang=ru&lr=157"
+        {:numOfLinks 55, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=belnovosti.by%2Fincidents%2F33868-chetyre-transportnyh-sredstva-stolknulis-na-trasse-minsk-grodno.html&lang=ru&lr=157"
+        {:numOfLinks 57, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.kp.by%2Fonline%2Fnews%2F1923283%2F&lang=ru&lr=157"
+        {:numOfLinks 67, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.autocorner.ru%2Fnovy-j-audi-rs3-stal-samy-m-moshhny-m-serijny-m-hot-he-tchem-v-mire%2F&lang=ru&lr=157"
+        {:numOfLinks 69, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=informing.ru%2F2014%2F12%2F13%2Fv-seti-uzhe-poyavilos-foto-samsung-galaxy-s6.html&lang=ru&lr=157"
+        {:numOfLinks 85, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=informing.ru%2F2014%2F12%2F12%2Fkompaniya-audi-oficialno-prezentovala-vtoroe-pokolenie-krossovera-q7.html&lang=ru&lr=157"
+        {:numOfLinks 57, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.pnp.ru%2Fnews%2Fdetail%2F73221&lang=ru&lr=157"
+        {:numOfLinks 84, :links []}}
+       {"http://yabs.yandex.by/count/MX06lqVNIly40WW0gQA0022ElIpBI0LHbGAR0cblYBKeyGe7feK9YhW_0xa1gW6bbXXaaRpGIMG6auq9GgC1hlmhMkzFunyA1R41mV__________3ta9"
+        {:numOfLinks 5, :links []}}
+       {"http://yabs.yandex.by/count/MX06lqVNIly40WW0gQA0022ElIpBI0LHbGAR0cblYBKeyGe7feK9YhW_0xa1gW6bbXXaaRpGIMG6auq9GgC1hlmhMkzFunyA1R41mV__________3ta9"
+        {:numOfLinks 5, :links []}}
+       {"http://news.yandex.by/" {:numOfLinks 34, :links []}}
+       {"http://avia.yandex.ru/?utm_source=yamain&amp;utm_medium=geoblock&amp;utm_campaign=aviaru"
+        {:numOfLinks 8, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://market.yandex.by/catalogmodels.xml?CAT_ID=160043&hid=91491&clid=514&utm_source=face&utm_term=cellularphone&utm_campaign=by"
+        {:numOfLinks 7, :links []}}
+       {"http://auto.yandex.ru/?from=morda&_openstat=yandex;title;dieselSPrice;bybelrudies4000"
+        {:numOfLinks 49, :links []}}
+       {"http://auto.yandex.ru/search?state=NEW&state=USED&tab=offers&price_to=4000&currency=USD&engine_type=DIESEL&from=morda&_openstat=yandex;text;dieselSPrice;bybelrudies4000"
+        {:numOfLinks 114, :links []}}
+       {"http://rabota.yandex.by/?from=morda&_openstat=yandex;title;popular;popular1byruall"
+        {:numOfLinks 45, :links []}}
+       {"http://rabota.yandex.by/?from=morda&_openstat=yandex;text;popular;popular1byruall"
+        {:numOfLinks 45, :links []}}
+       {"https://money.yandex.ru/" {:numOfLinks 14, :links []}}
+       {"http://fotki.yandex.ru/" {:numOfLinks 24, :links []}}
+       {"https://disk.yandex.ru/?source=services-main"
+        {:numOfLinks 24, :links []}}
+       {"https://afisha.yandex.by/mnk/" {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/1001802/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/997573/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/990101/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/1000429/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/1001156/"
+        {:numOfLinks 0, :links []}}
+       {"http://news.yandex.by/quotes/157/40049.html"
+        {:numOfLinks 34, :links []}}
+       {"http://news.yandex.by/quotes/157/40050.html"
+        {:numOfLinks 34, :links []}}
+       {"http://news.yandex.by/quotes/157/40051.html"
+        {:numOfLinks 34, :links []}}
+       {"http://www.artlebedev.ru" {:numOfLinks 8, :links []}}
+       {"https://direct.yandex.ru/?from=maintest_ru_zaryuditebusines"
+        {:numOfLinks 62, :links []}}
+       {"http://advertising.yandex.by/?from=main_bottom"
+        {:numOfLinks 18, :links []}}
+       {"http://blog.yandex.ru" {:numOfLinks 48, :links []}}
+       {"https://mail.yandex.by" {:numOfLinks 0, :links []}}
+       {"https://passport.yandex.ru/registration/mail?mode=simplereg&require_hint=1&retpath=https%3A%2F%2Fmail.yandex.by%2F%3Forigin%3Dhome_by_nol&origin=home_by_nol"
+        {:numOfLinks 2, :links []}}
+       {"https://passport.yandex.ru/passport?mode=restore"
+        {:numOfLinks 24, :links []}})}}
+    {"http://www.yandex.ua"
+     {:numOfLinks 56,
+      :links
+      ({"http://home.yandex.ua/?from=prov_main"
+        {:numOfLinks 6, :links []}}
+       {"http://home.yandex.ua/?from=prov_main"
+        {:numOfLinks 6, :links []}}
+       {"https://disk.yandex.ua/?auth&source=main-nonlogin" nil}
+       {"http://www.yandex.ua/?lang=by&sk=yfcddd615e548c17dbed151731ff67b33"
+        {:numOfLinks 56, :links []}}
+       {"http://www.yandex.ua/?lang=ru&sk=yfcddd615e548c17dbed151731ff67b33"
+        {:numOfLinks 56, :links []}}
+       {"http://www.yandex.ua/themes" {:numOfLinks 137, :links []}}
+       {"http://www.yandex.ua/?edit=1" {:numOfLinks 43, :links []}}
+       {"http://widgets.yandex.ua" {:numOfLinks 36, :links []}}
+       {"https://mail.yandex.ua" {:numOfLinks 0, :links []}}
+       {"https://mail.yandex.ua" {:numOfLinks 0, :links []}}
+       {"http://news.yandex.ua/?lang=uk" {:numOfLinks 36, :links []}}
+       {"http://news.yandex.ua/Kiev" {:numOfLinks 38, :links []}}
+       {"http://time.yandex.ua" {:numOfLinks 31, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=riafan.ru%2F170582-stalo-izvestno-komu-iz-ukrainskih-boytsov-pozhal-ruku-motorola%2F&lang=uk&lr=143"
+        {:numOfLinks 67, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=www.championat.com%2Fboxing%2Fnews-2009937-venter-nadejus-v-boju-protiv-usika-mne-ulybnetsja-udacha.html&lang=uk&lr=143"
+        {:numOfLinks 66, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=www.vladtime.ru%2Fpolit%2F412711-girkin-prognoziroval-gaagskiy-tribunal-dlya-sebya-i-putina.html&lang=uk&lr=143"
+        {:numOfLinks 56, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=www.baltinfo.ru%2F2014%2F12%2F13%2FPoroshenko-predostavil-eks-glave-MVD-Gruzii-ukrainskoe-grazhdanstvo-467251&lang=uk&lr=143"
+        {:numOfLinks 75, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=tass.ru%2Fobschestvo%2F1645057&lang=uk&lr=143"
+        {:numOfLinks 53, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=www.championat.com%2Fboxing%2Fnews-2009937-venter-nadejus-v-boju-protiv-usika-mne-ulybnetsja-udacha.html&gm=1&lang=uk&lr=143"
+        {:numOfLinks 66, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=korrespondent.net%2Fkyiv%2F3455643-klychko-rasskazal-kuda-poidut-denhy-ot-podorozhanyia-proezda-v-metro&gm=1&lang=uk&lr=143"
+        {:numOfLinks 58, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=fwnews.ru%2Fpolitika%2Fv-kieve-likvidirovali-kazino-vozmozhno-prinadlezhavshee-synu-yanukovicha&gm=1&lang=uk&lr=143"
+        {:numOfLinks 56, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=dni.com.ua%2Fukrnews%2F27598-kievskoe-dinamo-vyigralo-u-rumynov-styaua-so-schetom-2-0.html&gm=1&lang=uk&lr=143"
+        {:numOfLinks 74, :links []}}
+       {"http://news.yandex.ua/yandsearch?cl4url=worldru.ru%2Findex.php%3Fnma%3Dnews%26fla%3Dstat%26nums%3D35888&gm=1&lang=uk&lr=143"
+        {:numOfLinks 68, :links []}}
+       {"http://yabs.yandex.ua/count/IIO-Uz80qT440WW0gQA0022El2pBI0LHbGAR16fQYB5Q0mi7feK9YgvD0lgg0QMM66IHlD19P0QJZmYYZGb2em6kz3NlZKRZ7me5iG71__________yFUma0"
+        {:numOfLinks 9, :links []}}
+       {"http://yabs.yandex.ua/count/IIO-Uz80qT440WW0gQA0022El2pBI0LHbGAR16fQYB5Q0mi7feK9YgvD0lgg0QMM66IHlD19P0QJZmYYZGb2em6kz3NlZKRZ7me5iG71__________yFUma0"
+        {:numOfLinks 9, :links []}}
+       {"http://news.yandex.ua/" {:numOfLinks 36, :links []}}
+       {"http://avia.yandex.ua/?from=geoblock_main_kyiv_ticketsairplaneua_ua|"
+        {:numOfLinks 9, :links []}}
+       {"http://pogoda.yandex.ua/kyiv/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.ua/kyiv/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.ua/kyiv/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.ua/kyiv/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.ua/kyiv/" {:numOfLinks 25, :links []}}
+       {"http://market.yandex.ua/catalogmodels.xml?CAT_ID=160043&hid=91491&clid=514&utm_source=face&utm_term=cellularphone&utm_campaign=ua"
+        {:numOfLinks 7, :links []}}
+       {"http://auto.yandex.ua/?from=morda&_openstat=yandex;title;priceS;uaukruado30"
+        {:numOfLinks 0, :links []}}
+       {"http://auto.yandex.ua/search?price_to=30000&currency=UAH&from=morda&_openstat=yandex;text;priceS;uaukruado30"
+        {:numOfLinks 0, :links []}}
+       {"http://rabota.yandex.ua/?from=morda&_openstat=yandex;title;ukrexpUa;Search2UA"
+        {:numOfLinks 45, :links []}}
+       {"http://rabota.yandex.ua/search.xml?from=morda&_openstat=yandex;text;ukrexpUa;Search2UA"
+        {:numOfLinks 58, :links []}}
+       {"https://money.yandex.ru/" {:numOfLinks 14, :links []}}
+       {"http://fotki.yandex.ru/" {:numOfLinks 24, :links []}}
+       {"https://disk.yandex.ua/?source=services-main" nil}
+       {"https://afisha.yandex.ua/kyv/" {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.ua/kyv/events/1004113/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.ua/kyv/events/1005414/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.ua/kyv/events/986714/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.ua/kyv/events/1001748/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.ua/kyv/events/1007193/"
+        {:numOfLinks 0, :links []}}
+       {"http://news.yandex.ua/quotes/143/40043.html"
+        {:numOfLinks 36, :links []}}
+       {"http://news.yandex.ua/quotes/143/40042.html"
+        {:numOfLinks 36, :links []}}
+       {"http://news.yandex.ua/quotes/143/40010.html"
+        {:numOfLinks 36, :links []}}
+       {"http://www.artlebedev.ru" {:numOfLinks 8, :links []}}
+       {"https://direct.yandex.ua/?from=maintest_ua_datiogoloshen"
+        {:numOfLinks 0, :links []}}
+       {"http://advertising.yandex.ua/?from=main_bottom"
+        {:numOfLinks 5, :links []}}
+       {"http://blog.yandex.ua" {:numOfLinks 34, :links []}}
+       {"https://mail.yandex.ua" {:numOfLinks 0, :links []}}
+       {"https://passport.yandex.ru/registration/mail?mode=simplereg&require_hint=1&retpath=https%3A%2F%2Fmail.yandex.ua%2F%3Forigin%3Dhome_ua_nol&origin=home_ua_nol"
+        {:numOfLinks 2, :links []}}
+       {"https://passport.yandex.ru/passport?mode=restore"
+        {:numOfLinks 24, :links []}})}}
+    {"http://www.yandex.by"
+     {:numOfLinks 55,
+      :links
+      ({"http://home.yandex.ru/?from=prov_main"
+        {:numOfLinks 5, :links []}}
+       {"http://home.yandex.ru/?from=prov_main"
+        {:numOfLinks 5, :links []}}
+       {"https://disk.yandex.ru/?auth&source=main-nonlogin"
+        {:numOfLinks 24, :links []}}
+       {"http://www.yandex.by/?lang=by&sk=yce4c183f61a7fc780f857f9ed9e458e9"
+        {:numOfLinks 55, :links []}}
+       {"http://www.yandex.by/themes" {:numOfLinks 138, :links []}}
+       {"http://www.yandex.by/?edit=1" {:numOfLinks 43, :links []}}
+       {"http://widgets.yandex.by" {:numOfLinks 36, :links []}}
+       {"https://mail.yandex.by" {:numOfLinks 0, :links []}}
+       {"https://mail.yandex.by" {:numOfLinks 0, :links []}}
+       {"http://news.yandex.by/?lang=ru" {:numOfLinks 34, :links []}}
+       {"http://news.yandex.by/world.html" {:numOfLinks 34, :links []}}
+       {"http://time.yandex.by" {:numOfLinks 31, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=rusnovosti.ru%2Fnews%2F357195%2F&lang=ru&lr=157"
+        {:numOfLinks 87, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.belta.by%2Fru%2Fall_news%2Fincident%3Fid%3D689168&lang=ru&lr=157"
+        {:numOfLinks 58, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.belta.by%2Fru%2Fall_news%2Fsociety%3Fid%3D689167&lang=ru&lr=157"
+        {:numOfLinks 58, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=belnovosti.by%2Fsociety%2F33873-andrej-ravkov-pozdravil-novobrancev-s-prinjatiem-voennoj-prisjagi.html&lang=ru&lr=157"
+        {:numOfLinks 55, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=belnovosti.by%2Fincidents%2F33868-chetyre-transportnyh-sredstva-stolknulis-na-trasse-minsk-grodno.html&lang=ru&lr=157"
+        {:numOfLinks 57, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.kp.by%2Fonline%2Fnews%2F1923283%2F&lang=ru&lr=157"
+        {:numOfLinks 67, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.autocorner.ru%2Fnovy-j-audi-rs3-stal-samy-m-moshhny-m-serijny-m-hot-he-tchem-v-mire%2F&lang=ru&lr=157"
+        {:numOfLinks 69, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=informing.ru%2F2014%2F12%2F13%2Fv-seti-uzhe-poyavilos-foto-samsung-galaxy-s6.html&lang=ru&lr=157"
+        {:numOfLinks 85, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=informing.ru%2F2014%2F12%2F12%2Fkompaniya-audi-oficialno-prezentovala-vtoroe-pokolenie-krossovera-q7.html&lang=ru&lr=157"
+        {:numOfLinks 57, :links []}}
+       {"http://news.yandex.by/yandsearch?cl4url=www.pnp.ru%2Fnews%2Fdetail%2F73221&lang=ru&lr=157"
+        {:numOfLinks 84, :links []}}
+       {"http://yabs.yandex.by/count/4Wrlp8KhkY040WW0gQA0022El2pBI0LHbGAR0cblYBKeyGe7feK9Yhm_0xa1gW6bbXXaaRpGIMG6auq9GgC1hl0mAvH6unyA1R41mV__________3ta9"
+        {:numOfLinks 5, :links []}}
+       {"http://yabs.yandex.by/count/4Wrlp8KhkY040WW0gQA0022El2pBI0LHbGAR0cblYBKeyGe7feK9Yhm_0xa1gW6bbXXaaRpGIMG6auq9GgC1hl0mAvH6unyA1R41mV__________3ta9"
+        {:numOfLinks 5, :links []}}
+       {"http://news.yandex.by/" {:numOfLinks 34, :links []}}
+       {"http://avia.yandex.ru/?utm_source=yamain&amp;utm_medium=geoblock&amp;utm_campaign=aviaru"
+        {:numOfLinks 8, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.by/minsk/" {:numOfLinks 25, :links []}}
+       {"http://market.yandex.by/catalogmodels.xml?CAT_ID=160043&hid=91491&clid=514&utm_source=face&utm_term=cellularphone&utm_campaign=by"
+        {:numOfLinks 7, :links []}}
+       {"http://auto.yandex.ru/?from=morda&_openstat=yandex;title;vendorFpriceS;bybelruforeign3000"
+        {:numOfLinks 49, :links []}}
+       {"http://auto.yandex.ru/search?state=NEW&state=USED&vendor_id=2&tab=offers&price_to=3000&currency=USD&from=morda&_openstat=yandex;text;vendorFpriceS;bybelruforeign3000"
+        {:numOfLinks 106, :links []}}
+       {"http://rabota.yandex.by/?from=morda&_openstat=yandex;title;popular;popular1byruall"
+        {:numOfLinks 45, :links []}}
+       {"http://rabota.yandex.by/?from=morda&_openstat=yandex;text;popular;popular1byruall"
+        {:numOfLinks 45, :links []}}
+       {"https://money.yandex.ru/" {:numOfLinks 14, :links []}}
+       {"http://fotki.yandex.ru/" {:numOfLinks 24, :links []}}
+       {"https://disk.yandex.ru/?source=services-main"
+        {:numOfLinks 24, :links []}}
+       {"https://afisha.yandex.by/mnk/" {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/1001802/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/997573/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/990101/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/1000429/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.by/mnk/events/1001156/"
+        {:numOfLinks 0, :links []}}
+       {"http://news.yandex.by/quotes/157/40049.html"
+        {:numOfLinks 34, :links []}}
+       {"http://news.yandex.by/quotes/157/40050.html"
+        {:numOfLinks 34, :links []}}
+       {"http://news.yandex.by/quotes/157/40051.html"
+        {:numOfLinks 34, :links []}}
+       {"http://www.artlebedev.ru" {:numOfLinks 8, :links []}}
+       {"https://direct.yandex.ru/?from=maintest_ru_kontextreklama"
+        {:numOfLinks 62, :links []}}
+       {"http://advertising.yandex.by/?from=main_bottom"
+        {:numOfLinks 18, :links []}}
+       {"http://blog.yandex.ru" {:numOfLinks 48, :links []}}
+       {"https://mail.yandex.by" {:numOfLinks 0, :links []}}
+       {"https://passport.yandex.ru/registration/mail?mode=simplereg&require_hint=1&retpath=https%3A%2F%2Fmail.yandex.by%2F%3Forigin%3Dhome_by_nol&origin=home_by_nol"
+        {:numOfLinks 2, :links []}}
+       {"https://passport.yandex.ru/passport?mode=restore"
+        {:numOfLinks 24, :links []}})}}
+    {"http://www.yandex.kz"
+     {:numOfLinks 63,
+      :links
+      ({"http://home.yandex.ru/?from=prov_main"
+        {:numOfLinks 5, :links []}}
+       {"http://home.yandex.ru/?from=prov_main"
+        {:numOfLinks 5, :links []}}
+       {"https://disk.yandex.ru/?auth&source=main-nonlogin"
+        {:numOfLinks 24, :links []}}
+       {"http://www.yandex.kz/?lang=by&sk=y54881efe39bc5c676e3539795eaf3513"
+        {:numOfLinks 63, :links []}}
+       {"http://www.yandex.kz/?lang=kz&sk=y54881efe39bc5c676e3539795eaf3513"
+        {:numOfLinks 64, :links []}}
+       {"http://www.yandex.kz/themes" {:numOfLinks 147, :links []}}
+       {"http://www.yandex.kz/?edit=1" {:numOfLinks 50, :links []}}
+       {"http://widgets.yandex.kz" {:numOfLinks 37, :links []}}
+       {"https://mail.yandex.kz" {:numOfLinks 0, :links []}}
+       {"https://mail.yandex.kz" {:numOfLinks 0, :links []}}
+       {"http://news.yandex.kz/?lang=ru" {:numOfLinks 34, :links []}}
+       {"http://news.yandex.kz/world.html" {:numOfLinks 34, :links []}}
+       {"http://news.yandex.kz/sport.html" {:numOfLinks 34, :links []}}
+       {"http://time.yandex.kz" {:numOfLinks 31, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=www.eurosport.ru%2Ffootball%2Fworld-cup%2F2022%2Fstory_sto4512189.shtml&lang=ru&lr=163"
+        {:numOfLinks 63, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=www.inform.kz%2Frus%2Farticle%2F2726915&lang=ru&lr=163"
+        {:numOfLinks 48, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=yvision.kz%2Fpost%2F448632&lang=ru&lr=163"
+        {:numOfLinks 52, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=www.tvc.ru%2Fnews%2Fshow%2Fid%2F57414&lang=ru&lr=163"
+        {:numOfLinks 68, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=sports.kz%2Fnews%2Fv-balhashe-otkryili-novyiy-fizkulturno-ozdorovitelnyiy-kompleks&lang=ru&lr=163"
+        {:numOfLinks 49, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=www.vesti.ru%2Fdoc.html%3Fid%3D2197880&lang=ru&lr=163"
+        {:numOfLinks 88, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=oane.ws%2Fnews%2F2014%2F12%2F13%2Fv_ssha_uspeshno_ispytali_lazernoe_oruzhie&lang=ru&lr=163"
+        {:numOfLinks 89, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=www.autocorner.ru%2Fnovy-j-audi-rs3-stal-samy-m-moshhny-m-serijny-m-hot-he-tchem-v-mire%2F&lang=ru&lr=163"
+        {:numOfLinks 69, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=www.vladtime.ru%2Fshou_biznes%2F412448-aktera-dmitriya-dyachenko-budut-sudit-v-ssha-za-ubiystvo-krolika.html&lang=ru&lr=163"
+        {:numOfLinks 84, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=www.gazeta.ru%2Fbusiness%2Fnews%2F2014%2F12%2F10%2Fn_6729941.shtml&lang=ru&lr=163"
+        {:numOfLinks 74, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=www.eurosport.ru%2Ffootball%2Fworld-cup%2F2022%2Fstory_sto4512189.shtml&lang=ru&lr=163"
+        {:numOfLinks 63, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=yvision.kz%2Fpost%2F448632&lang=ru&lr=163"
+        {:numOfLinks 52, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=today.kz%2Fsport%2Fboxing%2F2014-12-13%2Fprizovoj-fond-kubka-kfb-2014-sostavit-25-millionov-tenge%2F&lang=ru&lr=163"
+        {:numOfLinks 47, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=yvision.kz%2Fpost%2F448654&lang=ru&lr=163"
+        {:numOfLinks 46, :links []}}
+       {"http://news.yandex.kz/yandsearch?cl4url=sports.kz%2Fnews%2Fsbornaya-kazahstana-mojet-syigrat-s-moldovoy-ili-estoniey&lang=ru&lr=163"
+        {:numOfLinks 47, :links []}}
+       {"http://yabs.yandex.kz/count/P9pOzKnaUqa40WW0gQA0022El2pBI0LHbGAR0sniYBOeyGe7feK9YhC_0xa1gW6bbXXaaRpGIMG6auCAeeq9GgC1hlSQSuz6unyA1R41mV__________3tm9"
+        {:numOfLinks 5, :links []}}
+       {"http://yabs.yandex.kz/count/P9pOzKnaUqa40WW0gQA0022El2pBI0LHbGAR0sniYBOeyGe7feK9YhC_0xa1gW6bbXXaaRpGIMG6auCAeeq9GgC1hlSQSuz6unyA1R41mV__________3tm9"
+        {:numOfLinks 5, :links []}}
+       {"http://news.yandex.kz/" {:numOfLinks 34, :links []}}
+       {"http://maps.yandex.ru/astana_traffic"
+        {:numOfLinks 38, :links []}}
+       {"http://avia.yandex.ru/?utm_source=yamain&amp;utm_medium=geoblock&amp;utm_campaign=aviaru"
+        {:numOfLinks 8, :links []}}
+       {"http://pogoda.yandex.kz/astana/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.kz/astana/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.kz/astana/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.kz/astana/" {:numOfLinks 25, :links []}}
+       {"http://pogoda.yandex.kz/astana/" {:numOfLinks 25, :links []}}
+       {"http://market.yandex.kz/catalogmodels.xml?CAT_ID=160043&hid=91491&clid=514&utm_source=face&utm_term=cellularphone&utm_campaign=kz"
+        {:numOfLinks 7, :links []}}
+       {"http://auto.yandex.ru/?from=morda&_openstat=yandex;title;newF;kzkazrunewforeign"
+        {:numOfLinks 49, :links []}}
+       {"http://auto.yandex.ru/search?specify_search=on&state=NEW&vendor_id=2&&currency=RUR&from=morda&_openstat=yandex;text;newF;kzkazrunewforeign"
+        {:numOfLinks 111, :links []}}
+       {"http://rabota.yandex.kz/?from=morda&_openstat=yandex;title;salary;salaryStatkzruall"
+        {:numOfLinks 45, :links []}}
+       {"http://rabota.yandex.kz/salary.xml?from=morda&_openstat=yandex;text;salary;salaryStatkzruall"
+        {:numOfLinks 49, :links []}}
+       {"https://money.yandex.ru/" {:numOfLinks 14, :links []}}
+       {"http://fotki.yandex.ru/" {:numOfLinks 24, :links []}}
+       {"https://disk.yandex.ru/?source=services-main"
+        {:numOfLinks 24, :links []}}
+       {"https://afisha.yandex.kz/ast/" {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.kz/ast/events/1007998/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.kz/ast/events/1001231/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.kz/ast/events/1001200/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.kz/ast/events/1005207/"
+        {:numOfLinks 0, :links []}}
+       {"https://afisha.yandex.kz/ast/events/1005208/"
+        {:numOfLinks 0, :links []}}
+       {"http://news.yandex.kz/quotes/5000.html"
+        {:numOfLinks 34, :links []}}
+       {"http://news.yandex.kz/quotes/5001.html"
+        {:numOfLinks 34, :links []}}
+       {"http://news.yandex.kz/quotes/5002.html"
+        {:numOfLinks 34, :links []}}
+       {"http://www.artlebedev.ru" {:numOfLinks 8, :links []}}
+       {"https://direct.yandex.ru/?from=maintest_ru_zaryuditebusines"
+        {:numOfLinks 62, :links []}}
+       {"http://advertising.yandex.kz/?from=main_bottom"
+        {:numOfLinks 19, :links []}}
+       {"http://blog.yandex.ru" {:numOfLinks 48, :links []}}
+       {"https://mail.yandex.kz" {:numOfLinks 0, :links []}}
+       {"https://passport.yandex.ru/registration/mail?mode=simplereg&require_hint=1&retpath=https%3A%2F%2Fmail.yandex.kz%2F%3Forigin%3Dhome_kz_nol&origin=home_kz_nol"
+        {:numOfLinks 2, :links []}}
+       {"https://passport.yandex.ru/passport?mode=restore"
+        {:numOfLinks 24, :links []}})}}
+    {"http://www.yandex.com.tr"
+     {:numOfLinks 7,
+      :links
+      ({"http://futbolaski.yandex.com.tr/" {:numOfLinks 16, :links []}}
+       {"http://home.yandex.com.tr/?from=prov_main"
+        {:numOfLinks 5, :links []}}
+       {"https://mail.yandex.com.tr" {:numOfLinks 8, :links []}}
+       {"https://harita.yandex.com.tr/?from=morda_new"
+        {:numOfLinks 1, :links []}}
+       {"http://haber.yandex.com.tr/?from=morda_new"
+        {:numOfLinks 6, :links []}}
+       {"http://sirket.yandex.com.tr" {:numOfLinks 31, :links []}}
+       {"http://contact2.yandex.com.tr" {:numOfLinks 12, :links []}})}}
+    {"http://api.yandex.com/"
+     {:numOfLinks 7,
+      :links
+      ({"https://passport.yandex.ru/passport?mode=passport"
+        {:numOfLinks 4, :links []}}
+       {"https://passport.yandex.com/passport?mode=login&amp;retpath=http://api.yandex.com/"
+        {:numOfLinks 4, :links []}}
+       {"https://passport.yandex.com/passport?mode=logout&amp;retpath=http://api.yandex.com/&amp;yu="
+        {:numOfLinks 4, :links []}}
+       {"https://passport.yandex.ru" {:numOfLinks 4, :links []}}
+       {"https://passport.yandex.ru/passport?mode=logout&amp;yu="
+        {:numOfLinks 4, :links []}}
+       {"http://feedback2.yandex.com/tech/" {:numOfLinks 4, :links []}}
+       {"http://www.yandex.com" {:numOfLinks 8, :links []}})}})}}
+ {"http://en.wikipedia.org/x" "Bad"})

@@ -5,6 +5,7 @@
 
 (declare run-url-analyzer)
 (declare handle-urls)
+(declare handle-url)
 
 "Status codes to handle."
 (def ok 200)
@@ -21,7 +22,7 @@
 "Handle external url.
  Depth-first algorithm for traversing URL's graph.
  Recall function to handle urls with decrementet depth."
-(defn- handle-url
+(defn handle-url
   [externalUrl depth]
   (let [response (client/get externalUrl { :throw-exceptions false })
         statusCode (:status response)]
@@ -36,7 +37,7 @@
                                          (str "Redirect to " (peek traceRedirects))))))
 
 "Handle external urls with specified depth."
-(defn- handle-urls
+(defn handle-urls
   [externalUrls depth]
   (pmap (fn [externalUrl]
           { externalUrl (handle-url externalUrl depth) })
